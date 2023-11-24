@@ -3,6 +3,8 @@ name: Create-Doc
 on:
     issues:
         types: [opened, edited]
+    push:
+        branches: [main]
 
 jobs:
     test:
