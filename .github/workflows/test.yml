@@ -1,0 +1,15 @@
+name: Create-Doc
+
+on:
+    issues:
+        types: [opened, edited]
+
+jobs:
+    test:
+        runs-on: windows-latest
+
+        steps:
+            - name: Pwd
+              run: |
+                pwd
+
